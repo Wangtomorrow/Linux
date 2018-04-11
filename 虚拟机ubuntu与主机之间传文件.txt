@@ -1,0 +1,8 @@
+﻿第一步  在Ubuntu菜单上选择VM->install VMware tools。然后出现VMware tools的安装压缩包文件VMwareTools-9.2.0-799703.tar.gz。
+第二步 在terminal中将该压缩文件解压到桌面或主目录下。可以先将该压缩文件复制到主文件夹下，然后用解压命令解压其tar.gz文件，将解压后的文件名改成相对简单的名字，如“vm”
+第三步 命令cd进入解压目录vm(即cd vm)，里面会有vmware-install.pl 文件。
+第四步 安装vmware-install.pl 。在命令窗口中输入：sudo ./vmware-install.pl  , 然后就开始编译，一路按Enter键直到出现Enjoy。
+第五步  重启虚拟机Ubuntu（通过ubuntu桌面右上角设置按钮）。不然安装后的VMware tools会不起作用。
+最后：打开VMware－>工具栏—>VM－>settings－>options ->shared Folders点添加，按提示来添加一个Windows下的“桌面”。Windows下桌面共享的文件夹了
+
+LINUX下，文件系统--MNT--HGFS--里面就是你WINDOWS共享的东西了
